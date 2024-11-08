@@ -7,7 +7,7 @@ import { useEffect, useState } from "react";
 import { Vortex } from "./components/ui/vortex";
 
 export default function Home() {
-  const [loader, setLoader] = useState(false);
+  const [loader, setLoader] = useState(true);
   useEffect(() => {
     setTimeout(() => {
       setLoader(false);
